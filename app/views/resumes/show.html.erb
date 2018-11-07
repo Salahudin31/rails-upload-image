@@ -1,0 +1,13 @@
+<div class="container">
+	<p>
+	  <strong>Judul:</strong>
+	  <%= @resume.name %>
+	</p>
+
+	<p>
+	  <strong>Title:</strong>
+	  <img src="<%= @resume.attachment %>" class="img-fluid" style="width: 50%;" alt="">
+	  
+	</p>
+	<%= link_to 'Back', resumes_path %>
+</div>
